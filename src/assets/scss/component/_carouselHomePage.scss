@@ -1,0 +1,137 @@
+.container-carousel {
+    position: relative;
+    .carousel {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .carousel-inner {
+            .carousel-item{
+                .container {
+                    margin: 0 auto;
+                    padding: 60px 0 30px 0;
+                    height: 600px;
+                    .item-left {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        .title {
+                            border-bottom: 1px dashed #000000;
+                            .title-1 {
+                                font-family: $ff-p-bk;
+                                font-size: 72px;
+                                letter-spacing: 50px;
+                                text-transform: uppercase;
+                                margin-bottom: 15px;
+                                line-height: 72px;
+                            }
+                            .title-2 {
+                                font-family: $ff-p-r;
+                                font-size: 48px;
+                                margin-bottom: 15px;
+                                line-height: 48px;
+                            }
+                        }
+                        .description {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border-bottom: 1px dashed #000000;
+                            .description-text{
+                                margin: 15px 0;
+                                .description-1 {
+                                    margin: 0;
+                                }
+                                .description-2 {
+                                    margin: 0;
+                                }
+                            }
+                            .description-button {
+                                button{
+                                   background: #ffcc29;
+                                   border-radius: 0;
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items: center;
+                                   font-family: $ff-p-b;
+                                   color: #ffffff;
+                                   text-transform: uppercase;
+                                    .icon{
+                                        margin-left: 10px;
+                                        width: 32px;
+                                        height: 32px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    .button-container{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        .container{
+            margin: 2px;
+            .row{
+                display: flex;
+                flex-wrap: nowrap;
+                button{
+                    border-radius: 0;
+                    width: 50%;
+                    background: #ffffff;
+                    color: #000000;
+                    border: none;
+                    margin: 1px;
+                    width: 70px;
+                    height: 70px;
+                    img{
+                        width: 12px;
+                        height: 22px;
+                    }
+                }
+            }
+        }
+    }
+    .button-contact-carousel{
+        position: absolute;
+        top: 50%;
+        right: 0;
+        z-index: 1000;
+        transform: translateY(-50%);
+
+        .container{
+            .box-contact{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: flex-end;
+                .button-call{
+                    width: 42px;
+                    height: 32px;
+                }
+                .button-text{
+                    width: 127px;
+                    height: 32px;
+                    line-height: 32px;
+                    text-align: end;
+                    background: #434361;
+                    font-family: $ff-p-b;
+                    color: #ffffff;
+                    margin: 10px 0;
+                    padding: 0 10px;
+                    border-top-left-radius: 16px;
+                    border-bottom-left-radius: 16px;
+                }
+                .button-email{
+                    width: 42px;
+                    height: 32px;
+                }
+            }
+        }
+    }
+}

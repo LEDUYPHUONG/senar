@@ -1,0 +1,66 @@
+.container-carousel {
+    .carousel {
+        .carousel-inner {
+            .carousel-item{
+                .container {
+                    @media screen and (max-width: 767px) {
+                        height: 800px;
+                    }
+                    .item-left {
+                        @media screen and (max-width: 767px) {
+                        width: 100%;
+                        }
+                        .title {
+                            .title-1 {
+                            }
+                            .title-2 {
+                            }
+                        }
+                        .description {
+                            .description-text{
+                                .description-1 {
+                                }
+                                .description-2 {
+                                }
+                            }
+                            .description-button {
+                                button{
+                                    .icon{
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .item-right{
+                        @media screen and (max-width: 767px) {
+                        width: 100%;
+                        margin-top: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .button-container{
+        .container{
+            .row{
+                button{
+                    img{
+                    }
+                }
+            }
+        }
+    }
+    .button-contact-carousel{
+        .container{
+            .box-contact{
+                .button-call{
+                }
+                .button-text{
+                }
+                .button-email{
+                }
+            }
+        }
+    }
+}

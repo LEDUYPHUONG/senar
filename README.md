@@ -2,7 +2,7 @@ senar-app:
 
 1. setting project:
   npx create-react-app senar --template typescript
-  npm i bootstrap axios @reduxjs/toolkit lodash react-redux node-sass react-router-dom sass-loader history
+  npm i react-bootstrap bootstrap axios @reduxjs/toolkit lodash react-redux node-sass react-router-dom sass-loader history
 
 + change:
   - readme.md
@@ -36,6 +36,7 @@ senar-app:
   import { Route, Routes } from 'react-router';
   import { BrowserRouter, Navigate } from 'react-router-dom';
   import { store } from './redux/configStore';
+  import "bootstrap/dist/css/bootstrap.min.css";
   import './assets/scss/style.scss';
   import AdminPage from './pages/AdminPage';
   import HomePage from './pages/HomePage';
@@ -62,4 +63,4 @@ senar-app:
   </Provider>
   );
   
-+ 
++

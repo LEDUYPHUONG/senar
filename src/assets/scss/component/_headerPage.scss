@@ -1,0 +1,167 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .navbar-icon{
+        margin-left: 25px;
+    }
+    .logo-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        .logo{
+            height: 40px;
+            width: 180px;
+            margin-left: 38px;
+        }
+        .menu{
+            height: 110px;
+            .nav{
+                height: 100%;
+                .nav-item{
+                    text-transform: uppercase;
+                    padding: 0 10px;
+                    height: 100%;
+                    line-height: 106px;
+                    font-family: $ff-p-b;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+                .active{
+                    background: #ffcc29;
+                    border-top: 2px solid #000000;
+                    border-bottom: 2px solid #000000;;
+                }
+            }
+        }
+    }
+    .header-contact{
+        .contact-container {
+            display: flex;
+            align-items: center;
+            .icon-contact{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 110px;
+                padding: 0 22px;
+                background: #f4f4f4;
+                .icon{
+                    margin: 0 13px;
+                    img{
+                        width: 32px;
+                        height: 32px;
+                    }
+                    
+                }
+            }
+            .icon-search-option{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                height: 110px;
+                width: 0;
+                position: relative;
+                z-index: 10;
+                top: 0;
+                left: 0;
+                .icon-search{
+                    img{
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+                .icon-language{
+                    img{
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+            }
+            .search-option{
+                height: 110px;
+                max-width: 200px;
+                background: #434361;
+                padding: 0 25px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                max-width: 170px;
+                .search{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-bottom: 1px solid #ffffff;
+                    max-width: 120px;
+                    input{
+                        padding: 0;
+                        background: transparent;
+                        border: none;
+                        color: #ffffff;
+                        font-family: $ff-p-r;
+                        font-size: 14px;
+                        font-weight: 400;
+                        &::placeholder{
+                            color: #ffffff;
+                            font-family: $ff-p-r;
+                            font-size: 14px;
+                            font-weight: 400;
+                        }
+                        &:focus{
+                            box-shadow: none;
+                        }
+                    }
+                }
+                .option{
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 1px solid #ffffff;
+                    min-width: 120px;
+                    .dropdown{
+                        button{
+                            width: 100%;
+                            background: transparent;
+                            border: none;
+                            text-align: start;
+                            padding: 0;
+                            font-family: $ff-p-r;
+                            font-size: 14px;
+                            font-weight: 400;
+                        }
+                        .dropdown-toggle::after{
+                            font-family: $ff-p-r;
+                            font-size: 14px;
+                            font-weight: 400;
+                        }  
+                    }
+                }
+            }
+        }
+    }
+}
+
+.offcanvas{
+    .offcanvas-header{
+        .offcanvas-title{
+            text-align: center;
+            width: 100%;
+        }
+    }
+    .offcanvas-body{
+        ul{
+            list-style: none;
+            padding-left: 0;
+            text-align: center;
+            li{
+                margin-bottom: 10px;
+            }
+            .active{
+                background: #ffcc29;
+                border-left: 2px solid #000000;
+                border-right: 2px solid #000000;
+            }
+        }
+    }
+}

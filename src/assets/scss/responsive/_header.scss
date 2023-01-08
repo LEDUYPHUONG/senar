@@ -1,0 +1,95 @@
+.header-container{
+    .navbar-icon{
+        display: none;
+        @media screen and (max-width: 1247px) {
+            display: block;
+        }
+    }
+    .logo-menu{
+        @media screen and (max-width: 1247px) {
+         margin: 0 auto;
+         width: auto;
+        }
+        .logo{
+            @media screen and (max-width: 1247px) {
+                margin: 0;
+            }
+        }
+        .menu{
+            @media screen and (max-width: 1247px) {
+                display: none;
+            }
+            .nav{
+                .nav-item{
+                }
+                .active{
+                }
+            }
+        }
+        .align-center-menu{
+        }
+    }
+    .header-contact{
+        .contact-container {
+            .icon-contact{
+                @media screen and (max-width: 1247px) {
+                    display: none;
+                }
+                .icon{
+                    img{
+                    }
+                    
+                }
+            }
+            .icon-search-option{
+                @media screen and (max-width: 450px) {
+                    display: none;
+                }
+                .icon-search{
+                    img{
+                    }
+                }
+                .icon-language{
+                    img{
+                    }
+                }
+            }
+            .search-option{
+                @media screen and (max-width: 450px) {
+                    display: none;
+                }
+                .search{
+                    input{
+                        &::placeholder{
+                        }
+                        &:focus{
+                        }
+                    }
+                }
+                .option{
+                    .dropdown{
+                        button{
+                        }
+                        .dropdown-toggle::after{
+                        }  
+                    }
+                }
+            }
+        }
+    }
+}
+
+.offcanvas{
+    .offcanvas-header{
+        .offcanvas-title{
+        }
+    }
+    .offcanvas-body{
+        ul{
+            li{
+            }
+            .active{
+            }
+        }
+    }
+}

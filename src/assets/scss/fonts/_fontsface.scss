@@ -1,0 +1,42 @@
+/* other formats include: 'woff2', 'truetype, 'opentype','embedded-opentype', and 'svg'
+
+For ttf format, you have to mention format('truetype'). For woff, format('woff'). For otf , format ('opentype')
+*/
+
+//font-family Circular
+
+@font-face {
+    font-family: "Lato_Thin";
+    src: local("Lato_Thin"),
+      url("../../fonts/Lato/Lato-Thin.ttf") format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Lato_Light";
+    src: local("Lato_Light"),
+      url("../../fonts/Lato/Lato-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Lato_Regular";
+    src: local("Lato_Regular"),
+      url("../../fonts/Lato/Lato-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: "Lato_Bold";
+    src: local("Lato_Bold"),
+      url("../../fonts/Lato/Lato-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Lato_Black";
+    src: local("Lato_Black"),
+      url("../../fonts/Lato/Lato-Black.ttf") format("truetype");
+    font-weight: 900;
+}
